@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 from BasePageObject import BasePageObject
 
-class TestLogin(unittest.TestCase):
+class TestEndToEndSaucedemo(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.get('https://www.saucedemo.com/')
